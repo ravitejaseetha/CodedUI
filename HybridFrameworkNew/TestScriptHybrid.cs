@@ -54,10 +54,10 @@ namespace HybridFrameworkNew
             //cannot access non static field in static context . We either need to make the variable static or create an instance(object) of the class to access the variables
             //gs.Calender_Arrows(browser,Variables.StrCalendernext,"9");
             gs.Click_Cell(browser, "30", Variables.StrDaytype);
-            String[] names = {"Rahul", "Karthik", "Jaiswal"};
+            String[] namesTourist = {"Rahul", "Karthik", "Jaiswal"};
             for (int i = 0; i < 2; i++)
             {
-                gs.Textbox_EnterText(browser, Variables.StrUsername, names[i]);
+                gs.Textbox_EnterText(browser, Variables.StrUsername, namesTourist[i]);
                 gs.Click_DatePicker(browser, Variables.StrDateofBirth);
                 gs.Click_Span(browser, DataTest.DataYearBirth);
                 gs.Click_Span(browser, DataTest.DataMonthBirth);
