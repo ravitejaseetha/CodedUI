@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Aurigma.GraphicsMill.Core.x86</id>
+    <version>7.2.20</version>
+    <title>Graphics Mill Core (x86)</title>
+    <authors>Aurigma Inc.</authors>
+    <owners>Aurigma Inc.</owners>
+    <licenseUrl>http://www.graphicsmill.com/docs/gm/licensing.htm</licenseUrl>
+    <projectUrl>http://graphicsmill.com/</projectUrl>
+    <iconUrl>http://www.graphicsmill.com/Aurigma/Images/favicon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Graphics Mill is an advanced image processing library. It allows loading/saving images (JPEG, PNG, GIF, TIFF, EPS, PDF, EPS, PSD and others) in various bitmap formats (RGB, CMYK, 8 and 16-bit per channel), managing metadata (EXIF, IPTC, XMP, Adobe Resources), manipulating image channels and pixels, applying operations on images (crop, resize, rotate, flip), drawing bitmap and vector elements, single and multiline text (including artistic effects and text line distortions),  converting colors with ICC profiles, adjust color/tone/brightness/contrasts and apply image filters.  
+
+IMPORTANT: This version is targeted for x86 environment. For x64 applications, please use the package named Graphics Mill Core (x64).</description>
+    <summary>Everything to load/save/modify image files in your C# app</summary>
+    <copyright>Aurigma Inc</copyright>
+    <tags>image imaging jpeg png tiff eps pdf psd webp cmyk crop resize resizing exif iptc xmp adobe drawing font</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Drawing" targetFramework="" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

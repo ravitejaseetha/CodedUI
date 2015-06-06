@@ -1,0 +1,6 @@
+E:\F# programs\Gmail\CodedUITestProject1\TourOperator_Example\bin\Debug\data.csv
+E:\F# programs\Gmail\CodedUITestProject1\TourOperator_Example\bin\Debug\TourOperator_Example.dll
+E:\F# programs\Gmail\CodedUITestProject1\TourOperator_Example\bin\Debug\TourOperator_Example.pdb
+E:\F# programs\Gmail\CodedUITestProject1\TourOperator_Example\obj\Debug\TourOperator_Example.csprojResolveAssemblyReference.cache
+E:\F# programs\Gmail\CodedUITestProject1\TourOperator_Example\obj\Debug\TourOperator_Example.dll
+E:\F# programs\Gmail\CodedUITestProject1\TourOperator_Example\obj\Debug\TourOperator_Example.pdb

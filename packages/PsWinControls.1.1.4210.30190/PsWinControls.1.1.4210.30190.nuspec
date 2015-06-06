@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>PsWinControls</id>
+    <version>1.1.4210.30190</version>
+    <title>PsWinControls</title>
+    <authors>VINITI</authors>
+    <owners>VINITI</owners>
+    <licenseUrl>http://creativecommons.org/licenses/by-nd/3.0/</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Advanced Windows Forms controls</description>
+    <summary>Advanced Windows Forms controls</summary>
+    <copyright>Pavel Shapkin</copyright>
+    <tags>windows forms csharp interface controls winforms</tags>
+  </metadata>
+</package>

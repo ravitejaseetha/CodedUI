@@ -1,0 +1,9 @@
+E:\F# programs\Gmail\CodedUITestProject1\CaptureImage\bin\Debug\CaptureImage.dll.config
+E:\F# programs\Gmail\CodedUITestProject1\CaptureImage\bin\Debug\CaptureImage.dll
+E:\F# programs\Gmail\CodedUITestProject1\CaptureImage\bin\Debug\CaptureImage.pdb
+E:\F# programs\Gmail\CodedUITestProject1\CaptureImage\bin\Debug\EntityFramework.dll
+E:\F# programs\Gmail\CodedUITestProject1\CaptureImage\bin\Debug\TechTalk.SpecFlow.dll
+E:\F# programs\Gmail\CodedUITestProject1\CaptureImage\bin\Debug\EntityFramework.xml
+E:\F# programs\Gmail\CodedUITestProject1\CaptureImage\obj\Debug\CaptureImage.csprojResolveAssemblyReference.cache
+E:\F# programs\Gmail\CodedUITestProject1\CaptureImage\obj\Debug\CaptureImage.dll
+E:\F# programs\Gmail\CodedUITestProject1\CaptureImage\obj\Debug\CaptureImage.pdb

@@ -1,0 +1,5 @@
+E:\F# programs\Gmail\CodedUITestProject1\ReportsAzure\bin\Debug\data.csv
+E:\F# programs\Gmail\CodedUITestProject1\ReportsAzure\bin\Debug\ReportsAzure.dll
+E:\F# programs\Gmail\CodedUITestProject1\ReportsAzure\bin\Debug\ReportsAzure.pdb
+E:\F# programs\Gmail\CodedUITestProject1\ReportsAzure\obj\Debug\ReportsAzure.dll
+E:\F# programs\Gmail\CodedUITestProject1\ReportsAzure\obj\Debug\ReportsAzure.pdb

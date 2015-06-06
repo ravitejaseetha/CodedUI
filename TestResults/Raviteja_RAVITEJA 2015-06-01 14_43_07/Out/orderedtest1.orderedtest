@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="orderedtest1" storage="e:\f# programs\gmail\codeduitestproject1\hybridframeworknew\orderedtest1.orderedtest" id="619911be-3c4f-4fdc-8cb8-ca00c94467d7" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestLinks>
+    <TestLink id="99df7f3a-48fb-5681-168d-805e24a6d224" name="AddTourist" storage="bin\debug\hybridframeworknew.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="8882f9a5-18fe-96d3-1a5d-644ff64bcf1b" name="EditTourist" storage="bin\debug\hybridframeworknew.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

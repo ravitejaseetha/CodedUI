@@ -1,0 +1,4 @@
+E:\F# programs\Gmail\CodedUITestProject1\ReuseBrowser\bin\Debug\ReuseBrowser.dll
+E:\F# programs\Gmail\CodedUITestProject1\ReuseBrowser\bin\Debug\ReuseBrowser.pdb
+E:\F# programs\Gmail\CodedUITestProject1\ReuseBrowser\obj\Debug\ReuseBrowser.dll
+E:\F# programs\Gmail\CodedUITestProject1\ReuseBrowser\obj\Debug\ReuseBrowser.pdb

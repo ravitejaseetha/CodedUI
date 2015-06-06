@@ -1,0 +1,4 @@
+E:\F# programs\Gmail\CodedUITestProject1\MultiTabs_Example\bin\Debug\MultiTabs_Example.dll
+E:\F# programs\Gmail\CodedUITestProject1\MultiTabs_Example\bin\Debug\MultiTabs_Example.pdb
+E:\F# programs\Gmail\CodedUITestProject1\MultiTabs_Example\obj\Debug\MultiTabs_Example.dll
+E:\F# programs\Gmail\CodedUITestProject1\MultiTabs_Example\obj\Debug\MultiTabs_Example.pdb

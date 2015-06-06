@@ -1,0 +1,4 @@
+E:\F# programs\Gmail\CodedUITestProject1\SpecFlowTest.Specs\bin\Debug\SpecFlowTest.Specs.dll
+E:\F# programs\Gmail\CodedUITestProject1\SpecFlowTest.Specs\bin\Debug\SpecFlowTest.Specs.pdb
+E:\F# programs\Gmail\CodedUITestProject1\SpecFlowTest.Specs\obj\Debug\SpecFlowTest.Specs.dll
+E:\F# programs\Gmail\CodedUITestProject1\SpecFlowTest.Specs\obj\Debug\SpecFlowTest.Specs.pdb

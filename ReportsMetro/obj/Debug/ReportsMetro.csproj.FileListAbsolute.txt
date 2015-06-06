@@ -1,0 +1,5 @@
+E:\F# programs\Gmail\CodedUITestProject1\ReportsMetro\bin\Debug\ReportsMetro.dll
+E:\F# programs\Gmail\CodedUITestProject1\ReportsMetro\bin\Debug\ReportsMetro.pdb
+E:\F# programs\Gmail\CodedUITestProject1\ReportsMetro\obj\Debug\ReportsMetro.csprojResolveAssemblyReference.cache
+E:\F# programs\Gmail\CodedUITestProject1\ReportsMetro\obj\Debug\ReportsMetro.dll
+E:\F# programs\Gmail\CodedUITestProject1\ReportsMetro\obj\Debug\ReportsMetro.pdb

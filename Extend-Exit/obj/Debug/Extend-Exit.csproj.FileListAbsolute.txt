@@ -1,0 +1,4 @@
+E:\F# programs\Gmail\CodedUITestProject1\Extend-Exit\bin\Debug\Extend-Exit.dll
+E:\F# programs\Gmail\CodedUITestProject1\Extend-Exit\bin\Debug\Extend-Exit.pdb
+E:\F# programs\Gmail\CodedUITestProject1\Extend-Exit\obj\Debug\Extend-Exit.dll
+E:\F# programs\Gmail\CodedUITestProject1\Extend-Exit\obj\Debug\Extend-Exit.pdb

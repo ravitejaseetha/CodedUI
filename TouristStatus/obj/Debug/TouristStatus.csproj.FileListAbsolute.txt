@@ -1,0 +1,5 @@
+E:\F# programs\Gmail\CodedUITestProject1\TouristStatus\bin\Debug\TouristStatus.dll
+E:\F# programs\Gmail\CodedUITestProject1\TouristStatus\bin\Debug\TouristStatus.pdb
+E:\F# programs\Gmail\CodedUITestProject1\TouristStatus\obj\Debug\TouristStatus.csprojResolveAssemblyReference.cache
+E:\F# programs\Gmail\CodedUITestProject1\TouristStatus\obj\Debug\TouristStatus.dll
+E:\F# programs\Gmail\CodedUITestProject1\TouristStatus\obj\Debug\TouristStatus.pdb

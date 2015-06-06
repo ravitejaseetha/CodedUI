@@ -1,0 +1,6 @@
+E:\F# programs\Gmail\CodedUITestProject1\NepalTourist-Web\bin\Debug\data.csv
+E:\F# programs\Gmail\CodedUITestProject1\NepalTourist-Web\bin\Debug\NepalTourist-Web.dll
+E:\F# programs\Gmail\CodedUITestProject1\NepalTourist-Web\bin\Debug\NepalTourist-Web.pdb
+E:\F# programs\Gmail\CodedUITestProject1\NepalTourist-Web\obj\Debug\NepalTourist-Web.csprojResolveAssemblyReference.cache
+E:\F# programs\Gmail\CodedUITestProject1\NepalTourist-Web\obj\Debug\NepalTourist-Web.dll
+E:\F# programs\Gmail\CodedUITestProject1\NepalTourist-Web\obj\Debug\NepalTourist-Web.pdb

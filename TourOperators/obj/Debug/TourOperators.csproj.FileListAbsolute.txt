@@ -1,0 +1,5 @@
+E:\F# programs\Gmail\CodedUITestProject1\TourOperators\bin\Debug\data.csv
+E:\F# programs\Gmail\CodedUITestProject1\TourOperators\bin\Debug\TourOperators.dll
+E:\F# programs\Gmail\CodedUITestProject1\TourOperators\bin\Debug\TourOperators.pdb
+E:\F# programs\Gmail\CodedUITestProject1\TourOperators\obj\Debug\TourOperators.dll
+E:\F# programs\Gmail\CodedUITestProject1\TourOperators\obj\Debug\TourOperators.pdb

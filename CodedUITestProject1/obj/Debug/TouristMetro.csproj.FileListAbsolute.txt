@@ -1,0 +1,8 @@
+E:\F# programs\Gmail\CodedUITestProject1\CodedUITestProject1\bin\Debug\TouristMetro.cs
+E:\F# programs\Gmail\CodedUITestProject1\CodedUITestProject1\bin\Debug\data.csv
+E:\F# programs\Gmail\CodedUITestProject1\CodedUITestProject1\bin\Debug\CodedUITestProject1.dll
+E:\F# programs\Gmail\CodedUITestProject1\CodedUITestProject1\bin\Debug\CodedUITestProject1.pdb
+E:\F# programs\Gmail\CodedUITestProject1\CodedUITestProject1\bin\Debug\PsWinControls.dll
+E:\F# programs\Gmail\CodedUITestProject1\CodedUITestProject1\obj\Debug\TouristMetro.csprojResolveAssemblyReference.cache
+E:\F# programs\Gmail\CodedUITestProject1\CodedUITestProject1\obj\Debug\CodedUITestProject1.dll
+E:\F# programs\Gmail\CodedUITestProject1\CodedUITestProject1\obj\Debug\CodedUITestProject1.pdb

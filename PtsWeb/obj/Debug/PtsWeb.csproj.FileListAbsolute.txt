@@ -1,0 +1,10 @@
+E:\F# programs\Gmail\CodedUITestProject1\PtsWeb\bin\Debug\browserdata.csv
+E:\F# programs\Gmail\CodedUITestProject1\PtsWeb\bin\Debug\data.csv
+E:\F# programs\Gmail\CodedUITestProject1\PtsWeb\bin\Debug\PtsWeb.dll.config
+E:\F# programs\Gmail\CodedUITestProject1\PtsWeb\bin\Debug\PtsWeb.dll
+E:\F# programs\Gmail\CodedUITestProject1\PtsWeb\bin\Debug\PtsWeb.pdb
+E:\F# programs\Gmail\CodedUITestProject1\PtsWeb\bin\Debug\EntityFramework.dll
+E:\F# programs\Gmail\CodedUITestProject1\PtsWeb\bin\Debug\EntityFramework.xml
+E:\F# programs\Gmail\CodedUITestProject1\PtsWeb\obj\Debug\PtsWeb.dll
+E:\F# programs\Gmail\CodedUITestProject1\PtsWeb\obj\Debug\PtsWeb.pdb
+E:\F# programs\Gmail\CodedUITestProject1\PtsWeb\obj\Debug\PtsWeb.csprojResolveAssemblyReference.cache
