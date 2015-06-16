@@ -3,4 +3,3 @@ E:\F# programs\Gmail\CodedUITestProject1\TourOperators\bin\Debug\TourOperators.d
 E:\F# programs\Gmail\CodedUITestProject1\TourOperators\bin\Debug\TourOperators.pdb
 E:\F# programs\Gmail\CodedUITestProject1\TourOperators\obj\Debug\TourOperators.dll
 E:\F# programs\Gmail\CodedUITestProject1\TourOperators\obj\Debug\TourOperators.pdb
-E:\F# programs\Gmail\CodedUITestProject1\TourOperators\obj\Debug\TourOperators.csprojResolveAssemblyReference.cache

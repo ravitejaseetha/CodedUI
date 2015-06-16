@@ -3,4 +3,3 @@ E:\F# programs\Gmail\CodedUITestProject1\MetroAPP\bin\Debug\MetroAPP.dll
 E:\F# programs\Gmail\CodedUITestProject1\MetroAPP\bin\Debug\MetroAPP.pdb
 E:\F# programs\Gmail\CodedUITestProject1\MetroAPP\obj\Debug\MetroAPP.dll
 E:\F# programs\Gmail\CodedUITestProject1\MetroAPP\obj\Debug\MetroAPP.pdb
-E:\F# programs\Gmail\CodedUITestProject1\MetroAPP\obj\Debug\MetroAPP.csprojResolveAssemblyReference.cache
