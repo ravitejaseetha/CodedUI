@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Text.RegularExpressions;
 using System.Windows.Input;
 using System.Windows.Forms;
@@ -24,24 +25,39 @@ namespace UsingGenerics
         {
         }
         BrowserWindow browser;
-        [TestMethod]
+        // connect to local sql server
+        [DataSource("System.Data.SqlClient", "Data Source=.\\RAVITEJA;Initial catalog=PTS;Integrated Security=True", "Tourists", DataAccessMethod.Sequential), TestMethod]
         public void CodedUITestMethod1()
         {
                
             browser = BrowserWindow.Launch("https://raviteja/ptsweb");
             browser.CloseOnPlaybackCleanup = false;
+            browser.Maximized = true;
             EnterText<HtmlEdit>(PropertyType.Id, "userName", "gjd@gmail.com");
             EnterText<HtmlEdit>(PropertyType.Name, "password", "Design_20");
             Playback.Wait(1000);
             Click<HtmlInputButton>(PropertyType.Id, "login");
             Click<HtmlEdit>(PropertyType.Id, "fromDate");
             Click<HtmlCell>(PropertyType.InnerText, "25");
-            EnterText<HtmlEdit>(PropertyType.Id, "username", "Roger");
+            EnterText<HtmlEdit>(PropertyType.Id, "username",TestContext.DataRow["FirstName"].ToString());
             Click<HtmlEdit>(PropertyType.Id, "DateOfBirth");
             Click<HtmlSpan>(PropertyType.InnerText, "2010");
             Click<HtmlSpan>(PropertyType.InnerText, "Jun");
             Click<HtmlCell>(PropertyType.InnerText, "21");
             EnterText<HtmlComboBox>(PropertyType.Id, "Nationality", "Srilanka");
+            string connectionString =
+                @"Data Source =192.168.0.11\technoid;Initial Catalog=PTS;Integrated Security=True";
+            SqlConnection intellex = new SqlConnection(connectionString);
+            string sqlQuery = "Select FirstName from Tourists";
+            SqlCommand command = new SqlCommand(sqlQuery,intellex);
+            intellex.Open();
+            SqlDataReader reader = command.ExecuteReader();
+            while (reader.Read())
+            {
+                string intellexName = reader.GetString(0);
+                Console.WriteLine(intellexName);
+            }
+            reader.Close();
         }
 
         public void EnterText<T>(PropertyType type, string propertyValue, string text) where T : HtmlControl
