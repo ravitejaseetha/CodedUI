@@ -5,6 +5,7 @@ using System.Windows.Input;
 using System.Windows.Forms;
 using System.Drawing;
 using System.Drawing.Imaging;
+using System.Linq;
 using System.Windows;
 using Microsoft.VisualStudio.TestTools.UITesting;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -43,6 +44,7 @@ namespace SapmleReports
             browser.CloseOnPlaybackCleanup = false;
             //browser.ExecuteScript("var controlCount = document.getElementsByTagName('Input').length; alert('The total controls count in login page is:'+controlCount);");
             var result = browser.ExecuteScript("var controlCount = document.getElementsByTagName('Input').length; return controlCount;");
+            browser.ExecuteScript("var count= document.getElementsByTagName('Input').length; alert('Total cnumber of input controls :' + count)");
             if (result.ToString() == "3")
             {
                 
@@ -52,8 +54,18 @@ namespace SapmleReports
                 EditText(browser, "password", util.ReadData(1, "Password"));
                 //Button(browser, "btn-signIn", "Sign");
                 Button(browser, "btn-signIn");
+                browser.ExecuteScript(
+                    "var count = document.getElementsByTagName('a').length; alert('total links the home page :' + count)");
+                //UITestControl uii = new UITestControl();
+                UITestControl ui = new HtmlHyperlink(browser);
+                UITestControlCollection coll = ui.FindMatchingControls();
+                var controls = coll.Select(x => x.FriendlyName);
+                foreach (var VARIABLE in controls)
+                {
+                    Console.WriteLine("controls : " +VARIABLE.ToString());
+                }
                 HyperLink(browser, "Reports ");
-                HyperLink(browser, "RAP Issuance Report");
+                HyperLink(browser, "ILP Issuance Report");
                 EditText(browser, "ctl00_ContentPlaceHolder1_FromDatePicker_dateInput", "01-05-2015");
                 EditText(browser, "ctl00_ContentPlaceHolder1_ToDatePicker_dateInput", "31-05-2015");
                 EditText(browser, "ctl00_ContentPlaceHolder1_LocationNameComboBox_Input", "ALL");
@@ -73,8 +85,8 @@ namespace SapmleReports
                 {
                     Console.WriteLine(i);
                 }
-                browser.ExecuteScript("alert('Hello world')");
-                
+               // browser.ExecuteScript("alert('Hello world')");
+               
             }
             else
             {

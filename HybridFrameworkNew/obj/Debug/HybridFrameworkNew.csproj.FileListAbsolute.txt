@@ -4,3 +4,4 @@ E:\F# programs\Gmail\CodedUITestProject1\HybridFrameworkNew\bin\Debug\HybridFram
 E:\F# programs\Gmail\CodedUITestProject1\HybridFrameworkNew\bin\Debug\HybridFrameworkNew.pdb
 E:\F# programs\Gmail\CodedUITestProject1\HybridFrameworkNew\obj\Debug\HybridFrameworkNew.dll
 E:\F# programs\Gmail\CodedUITestProject1\HybridFrameworkNew\obj\Debug\HybridFrameworkNew.pdb
+E:\F# programs\Gmail\CodedUITestProject1\HybridFrameworkNew\obj\Debug\HybridFrameworkNew.csprojResolveAssemblyReference.cache

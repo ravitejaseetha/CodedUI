@@ -47,6 +47,8 @@ namespace HybridFrameworkNew
         [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV","|DataDirectory|\\data.csv","data#csv",DataAccessMethod.Sequential),DeploymentItem("data.csv"),TestMethod]
         public void AddTourist()
         {
+            Console.WriteLine("Enter any name");
+            string text = Console.ReadLine();
             Playback.PlaybackSettings.WaitForReadyLevel = WaitForReadyLevel.Disabled;
             gs = new GlobalFunctions();
             gs.Select_ComboItem(browser,Variables.StrTourop,DataTest.DataTouroperator);
@@ -102,7 +104,7 @@ namespace HybridFrameworkNew
         }
         public string GetTextReport(UITestControl parent,String classname)
         {
-            var name = new HtmlDiv(parent);
+            HtmlDiv name = new HtmlDiv(parent);
             name.SearchProperties.Add(UITestControl.PropertyNames.ClassName,classname);
             return name.GetProperty("FriendlyName").ToString();
         }
@@ -120,13 +122,18 @@ namespace HybridFrameworkNew
         {
             if (TestContext.CurrentTestOutcome == UnitTestOutcome.Passed)
             {
-                Image image = UITestControl.Desktop.CaptureImage();
-                image.Save(@"d:\" + TestContext.TestName + ".jpeg", ImageFormat.Jpeg);
-                image.Dispose();
+                using (Image image = UITestControl.Desktop.CaptureImage())
+                {
+                    image.Save(@"d:\" + TestContext.TestName + ".jpeg", ImageFormat.Jpeg);
+                }
+                //image.Dispose();
                 FileInfo f = new FileInfo(@"d:\Results.txt");
-                StreamWriter sw = f.AppendText();
-                sw.WriteLine(TestContext.TestName + "Passed");
-                sw.Close();
+
+                    StreamWriter sw = f.AppendText();
+                    sw.WriteLine(TestContext.TestName + "Passed");
+                    sw.Close();
+               
+                
             }
         }
         public string GetText(UITestControl parent, String value)

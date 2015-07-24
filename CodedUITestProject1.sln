@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HybridFrameworkNew", "Hybri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RDT", "RDT\RDT.csproj", "{CEE5D654-B091-4743-98F4-0910DD067D24}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingGenerics", "UsingGenerics\UsingGenerics.csproj", "{DE4DD037-6BD1-43EA-84B7-5602C957D6FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{CEE5D654-B091-4743-98F4-0910DD067D24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEE5D654-B091-4743-98F4-0910DD067D24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEE5D654-B091-4743-98F4-0910DD067D24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE4DD037-6BD1-43EA-84B7-5602C957D6FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE4DD037-6BD1-43EA-84B7-5602C957D6FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE4DD037-6BD1-43EA-84B7-5602C957D6FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE4DD037-6BD1-43EA-84B7-5602C957D6FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
