@@ -26,7 +26,8 @@ namespace UsingGenerics
         }
         BrowserWindow browser;
         // connect to local sql server
-        [DataSource("System.Data.SqlClient", "Data Source=.\\RAVITEJA;Initial catalog=PTS;Integrated Security=True", "Tourists", DataAccessMethod.Sequential), TestMethod]
+        //[DataSource("System.Data.SqlClient", "Data Source=.\\RAVITEJA;Initial catalog=PTS;Integrated Security=True", "Tourists", DataAccessMethod.Sequential), TestMethod]
+        [TestMethod]
         public void CodedUITestMethod1()
         {
                
@@ -38,26 +39,37 @@ namespace UsingGenerics
             Playback.Wait(1000);
             Click<HtmlInputButton>(PropertyType.Id, "login");
             Click<HtmlEdit>(PropertyType.Id, "fromDate");
-            Click<HtmlCell>(PropertyType.InnerText, "25");
-            EnterText<HtmlEdit>(PropertyType.Id, "username",TestContext.DataRow["FirstName"].ToString());
+            Click<HtmlCell>(PropertyType.InnerText, "31", "today day");
+            EnterText<HtmlEdit>(PropertyType.Id, "username","rt");
             Click<HtmlEdit>(PropertyType.Id, "DateOfBirth");
             Click<HtmlSpan>(PropertyType.InnerText, "2010");
             Click<HtmlSpan>(PropertyType.InnerText, "Jun");
             Click<HtmlCell>(PropertyType.InnerText, "21");
             EnterText<HtmlComboBox>(PropertyType.Id, "Nationality", "Srilanka");
-            string connectionString =
-                @"Data Source =192.168.0.11\technoid;Initial Catalog=PTS;Integrated Security=True";
-            SqlConnection intellex = new SqlConnection(connectionString);
-            string sqlQuery = "Select FirstName from Tourists";
-            SqlCommand command = new SqlCommand(sqlQuery,intellex);
-            intellex.Open();
-            SqlDataReader reader = command.ExecuteReader();
+            EnterText<HtmlEdit>(PropertyType.Id, "state","columbo");
+            //string connectionString =
+            //    @"Data Source =192.168.0.11\technoid;Initial Catalog=PTS;Integrated Security=True";
+            //SqlConnection intellex = new SqlConnection(connectionString);
+            //string sqlQuery = "Select FirstName from Tourists";
+            //SqlCommand command = new SqlCommand(sqlQuery,intellex);
+            //intellex.Open();
+            //SqlDataReader reader = command.ExecuteReader();
+            //while (reader.Read())
+            //{
+            //    string intellexName = reader.GetString(0);
+            //    Console.WriteLine(intellexName);
+            //}
+            //reader.Close();
+            SqlConnection conn = new SqlConnection("Data Source=192.168.0.11\\technoid;Initial Catalog=PTS;User ID=sa;Password=Design_20;");
+            conn.Open();
+            SqlCommand cmd = new SqlCommand("Select FirstName from Tourists");
+            SqlDataReader reader = cmd.ExecuteReader();
             while (reader.Read())
             {
-                string intellexName = reader.GetString(0);
-                Console.WriteLine(intellexName);
+             Console.WriteLine(reader.GetString(0));
             }
             reader.Close();
+            conn.Close();
         }
 
         public void EnterText<T>(PropertyType type, string propertyValue, string text) where T : HtmlControl
@@ -73,17 +85,18 @@ namespace UsingGenerics
             
         }
 
-        public void Click<T>(PropertyType type, string propertyValue) where T : HtmlControl
+        public void Click<T>(PropertyType type, string propertyValue, String filterProperties = null) where T : HtmlControl
         {
             HtmlControl genericControl = (T) Activator.CreateInstance(typeof (T), new object[] {browser});
-            if (type == PropertyType.Name)
-                genericControl.SearchProperties[HtmlControl.PropertyNames.Name] = propertyValue;
-            else if (type == PropertyType.Id)
+            if (type == PropertyType.Id)
                 genericControl.SearchProperties[HtmlControl.PropertyNames.Id] = propertyValue;
-            else if (type == PropertyType.InnerText)
-                genericControl.SearchProperties[HtmlControl.PropertyNames.InnerText] = propertyValue;
             else if (type == PropertyType.ClassName)
                 genericControl.SearchProperties[HtmlControl.PropertyNames.ClassName] = propertyValue;
+            else if (type == PropertyType.InnerText)
+                genericControl.SearchProperties[HtmlControl.PropertyNames.InnerText] = propertyValue;
+            else if (type == PropertyType.Id && filterProperties != null)
+                genericControl.SearchProperties[HtmlControl.PropertyNames.Id] = propertyValue;
+                genericControl.FilterProperties[HtmlControl.PropertyNames.Class] = filterProperties;
             Mouse.Click(genericControl);
         }
         #region Additional test attributes

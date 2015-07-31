@@ -2,4 +2,3 @@ E:\F# programs\Gmail\CodedUITestProject1\UsingGenerics\bin\Debug\UsingGenerics.d
 E:\F# programs\Gmail\CodedUITestProject1\UsingGenerics\bin\Debug\UsingGenerics.pdb
 E:\F# programs\Gmail\CodedUITestProject1\UsingGenerics\obj\Debug\UsingGenerics.dll
 E:\F# programs\Gmail\CodedUITestProject1\UsingGenerics\obj\Debug\UsingGenerics.pdb
-E:\F# programs\Gmail\CodedUITestProject1\UsingGenerics\obj\Debug\UsingGenerics.csprojResolveAssemblyReference.cache
