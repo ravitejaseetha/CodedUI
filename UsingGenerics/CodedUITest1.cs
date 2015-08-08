@@ -32,6 +32,7 @@ namespace UsingGenerics
         {
                
             browser = BrowserWindow.Launch("https://raviteja/ptsweb");
+            Playback.PlaybackSettings.DelayBetweenActions = 1000;
             browser.CloseOnPlaybackCleanup = false;
             browser.Maximized = true;
             EnterText<HtmlEdit>(PropertyType.Id, "userName", "gjd@gmail.com");
